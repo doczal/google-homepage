@@ -3,6 +3,7 @@
   <head>
     <title>Google</title>
     <link rel="icon" type="image/png" href="google-icon.ico">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -12,15 +13,27 @@
         <li>Who?</li>
         <li>Gmail</li>
         <li>Images</li>
+        <li class="apps"></li>
+        <li class="notifications"></li>
+        <li class="initial">?</li>
       </ul>
     </nav>
 
-    <!-- Search Bar -->
-    <img src="google-logo.png"/>
-    <input class="gsearch" type="search">
 
-    <input class="gbtn" type="submit" value="Google Search">
-    <input class="gbtn" type="submit" value="I'm Feeling Lucky">
+    <div class="google-wrap">
+      <img class="glogo-main" src="google-logo.png"/>
+    </div>
+
+    <div class="gsearch-wrap">
+      <input class="gsearch" type="text" maxlength="60">
+      <img class="mic" src="mic.png"/>
+    </div>
+
+    <div class="btn-wrap">
+      <input class="gbtn" type="submit" value="Google Search">
+      <input class="gbtn" type="submit" value="I'm Feeling Lucky">
+    </div>
+
 
     <!-- Footer Navigation -->
 

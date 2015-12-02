@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-width: 980px;
+}
+
+.gnav {
+  font-size: 13px;
+  color: #000;
+  height: 60px;
+  padding: 0 30px;
+  position: relative;
+}
+
+.gnav ul {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.gnav li:first-child {
+  opacity: 0.55;
+}
+
+.gnav li {
+  text-align: center;
+  display: inline-block;
+  line-height: 24px;
+  padding: 0 6px;
+  vertical-align: middle;
+}
+
+.gnav li.apps {
+  background-image: url("google-sprites.png");
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  background-position: -132px -38px;
+  opacity: 0.55;
+  margin-left: 6px;
+}
+
+.gnav li.notifications {
+  background-image: url("google-sprites.png");
+  background-position: -194px -21px;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.gnav li.initial {
+  color: #fff;
+  font-size: 16px;
+  background-color: rgb(190, 111, 149);
+  background-position: -194px -21px;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+  line-height: 32px;
+}
+
+.google-wrap {
+  position: relative;
+  height: 124px;
+  margin-top: 129px;
+}
+
+.glogo-main {
+  width: 272px;
+  height: 92px;
+  display: block;
+  margin: auto;
+}
+
+.btn-wrap {
+  text-align: center;
+  padding-top: 17px;
+}
+
+.gsearch-wrap {
+  margin: 0 auto;
+  width: 502px;
+  line-height: 26px;
+  position: relative;
+}
+
+.gsearch-wrap::after {
+  clear: both;
+}
+
+input.gsearch {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 484px;
+  height: 38px;
+  padding: 0px 8px;
+  outline:none;
+  border: 1px solid #d9d9d9;
+
+}
+
+.gsearch:hover {
+  border: 1px solid #b9b9b9;
+}
+
+.gsearch:focus {
+  border: 1px solid #4d90fe;
+}
+
+.mic {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  right: 1%;
+}
+
+.mic:hover {
+  cursor: pointer;
+}
+
+.gbtn {
+  background-color: #f2f2f2;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 16px;
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  margin: 11px 4px;
+}
+
+.gbtn:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.gfooter {
+  font-size: 13px;
+  color: #666;
+  width: 100%;
+  min-width: 980px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  bottom: 0;
+}
+
+.gfooter ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.footer-l {
+  float: left;
+  padding-left: 20px;
+}
+
+.footer-r {
+  float: right;
+  padding-right: 20px;
+}
